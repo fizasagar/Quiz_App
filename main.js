@@ -1,7 +1,7 @@
 #!usr/bin/env node
 import inquirer from "inquirer";
 console.log("Welcome to my advanture quiz game:");
-console.log("you are required to gain maximum 4 points for the window.");
+console.log("you are required to gain maximum 9 points for the window.");
 let points = 0;
 // Question 01
 let question1 = await inquirer.prompt([
